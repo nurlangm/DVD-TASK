@@ -1,0 +1,59 @@
+body {
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+ }
+ @keyframes DVD {
+    15% {
+       top: 83%;
+       left: 55%;
+       background-color: yellow;
+    }
+ 
+    30% {
+       top: 40%;
+       left: 90%;
+      background-color: red;
+    }
+    45% {
+       top: 0%;
+       left: 50%;
+      background-color: royalblue;
+    }
+ 
+    60% {
+       top: 60%;
+       left: 0%;
+       background-color: seagreen;
+    }
+ 
+    75% {
+       top: 82%;
+       left: 30%;
+       background-color: turquoise;
+    }
+ 
+    90% {
+       top: 40%;
+       left: 82%;
+       background-color: blue;
+ 
+    }
+ 
+    100% {
+       top: 0;
+       left: 0;
+    }
+ }
+    
+ img {
+    background-color:black;
+    position: relative; 
+    top: 0;
+    left: 0;
+    animation:DVD 14s forwards infinite alternate-reverse linear;
+    width: 100px;
+    height: 100px;
+    
+ }
+ 
